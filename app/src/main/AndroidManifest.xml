@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mozeeb.wallpaperapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/wallapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/wallapp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AndroidGridLayoutActivity"
+            />
+        <activity android:name=".fullImage"></activity>
+    </application>
+
+</manifest>
